@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: lightpink;
+            height: 60vh;
+            width: 100%;
+        }
+
+        .part1 {
+            height: 30vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .part2 {
+            height: 30vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            margin-bottom: 60px;
+        }
+
+        i {
+            /* background-color: lightblue; */
+            background: linear-gradient(180deg, rgb(7, 7, 221), rgb(0, 166, 255));
+            border-radius: 50%;
+            padding: 10px;
+            transition: transform 1s linear;
+        }
+
+        i:hover {
+            transform: rotate(360deg);
+        }
+
+        .box {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="part1">
+            <div class="box" id="box1">
+                <div class="left">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="right">
+                    <h3>Lorem ipsum</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id dolorem vero? Aut quas
+                        vel libero, iusto provident sunt consequuntur.</p>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="left">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="right">
+                    <h3>Lorem ipsum</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id dolorem vero? Aut quas
+                        vel libero, iusto provident sunt consequuntur.</p>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="left">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="right">
+                    <h3>Lorem ipsum</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id dolorem vero? Aut quas
+                        vel libero, iusto provident sunt consequuntur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="part2">
+            <div class="box" id="box4">
+                <div class="left">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="right">
+                    <h3>Lorem ipsum</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id dolorem vero? Aut quas
+                        vel libero, iusto provident sunt consequuntur.</p>
+                </div>
+            </div>
+            <div class="box" id="box5">
+                <div class="left">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="right">
+                    <h3>Lorem ipsum</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id dolorem vero? Aut quas
+                        vel libero, iusto provident sunt consequuntur.</p>
+                </div>
+            </div>
+            <div class="box" id="box6">
+                <div class="left">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="right">
+                    <h3>Lorem ipsum</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id dolorem vero? Aut quas
+                        vel libero, iusto provident sunt consequuntur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
